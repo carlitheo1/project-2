@@ -14,6 +14,7 @@
 .ohtani-nav{
     display: flex;
     gap: 25px;
+    padding-bottom: 25px;
 }
 
 .ohtani-feature-item{
@@ -22,4 +23,11 @@
 
 .div{
     display: block;
+}
+
+.ohtani-main-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
