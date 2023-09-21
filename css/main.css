@@ -1,1 +1,25 @@
 /* Place CSS styles here */
+.ohtani-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(132, 195, 255);
+    padding: 2%;
+}
+
+.ohtani-feature-items{
+    display: flex;
+    gap: 24px;
+}
+
+.ohtani-nav{
+    display: flex;
+    gap: 25px;
+}
+
+.ohtani-feature-item{
+    background-color: rgb(132, 195, 255);
+}
+
+.div{
+    display: block;
+}
