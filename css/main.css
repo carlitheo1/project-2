@@ -1,13 +1,22 @@
 /* Place CSS styles here */
+
 .ohtani-header{
     display: flex;
     justify-content: space-between;
     background-color: rgb(132, 195, 255);
     padding: 2%;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .ohtani-footer{
     padding-top: 20px;
     font-weight: bold;
+}
+
+.ohtani-newsletter-form{
+    
 }
 
 .ohtani-image{
@@ -21,6 +30,9 @@
 
 .ohtani-nav{
     display: flex;
+    overflow: hidden;
+    justify-content: flex-end;
+    margin: 0px;
     gap: 25px;
     padding-bottom: 25px;
 }
