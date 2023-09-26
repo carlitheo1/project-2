@@ -5,6 +5,14 @@
     background-color: rgb(132, 195, 255);
     padding: 2%;
 }
+.ohtani-footer{
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.ohtani-image{
+    padding-bottom: 15px;
+}
 
 .ohtani-feature-items{
     display: flex;
@@ -17,8 +25,14 @@
     padding-bottom: 25px;
 }
 
+.ohtani-mini-text{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
 .ohtani-feature-item{
     background-color: rgb(132, 195, 255);
+    padding: 10px;
 }
 
 .div{
@@ -31,3 +45,12 @@
     align-items: center;
 
 }
+ h3{
+    text-align: center;
+ }
+
+ p{
+    text-align: center;
+ }
+
+

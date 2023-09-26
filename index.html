@@ -40,8 +40,8 @@
 
   <main class="ohtani-main-wrapper">
     <div class="ohtani-featured-wrapper">
-      <aside class="ohtani-sidebar">column 1</aside>
-      <div class="ohtani-content">column 2</div>
+      <aside class="ohtani-sidebar"></aside>
+      <div class="ohtani-content"></div>
     </div>
   </main> 
   <div class="ohtani-main-wrapper">
@@ -53,7 +53,7 @@
         <div class="ohtani-feature-item">
           <img src="./img/ohtani-movie-star.jpg" 
           height="300" width="300" alt="">
-          <h3>Item title</h3>
+          <h3>About Us</h3>
           <p> </p>
         </div>
 
@@ -61,21 +61,30 @@
         <div class="ohtani-feature-item">
           <img src="./img/ohtani-look-back.jpg"
           height="300" width="300" alt="">
-          <h3>Item title</h3>
-          <p> </p>
+          <h3>Who is Shohei Ohtani?</h3>
+          <p class="ohtani-mini-text">Two-way baseball player by way of Japan... </p>
         </div>
 
         <!-- third section -->
         <div class="ohtani-feature-item">
           <img src="./img/shohei-ohtani-smile.jpg" 
-          height="300" width="300" alt="">
-          <h3>Item title</h3>
-          <p> </p>
+         height="300" width="300" alt="">
+          <h3>Want to Join Us?</h3>
+          <p class="ohtani-mini-text">Scroll down to join our newsletter! </p>
         </div>
 
       </div>
     </main>
-    <footer class="ohtani-footer">footer</footer>
+    <footer class="ohtani-footer">Want to keep up to date with all things Shohei? Sign up for our newsletter below!</footer>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value=""> <br><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value=""><br><br>
+      <label for="email">Email:</label><br>
+      <input type="text" id="e-mail" name="e-mail" value=""><br><br>
+      <input type="submit" value="Submit">
+    </form> 
   </div>
   <a href="#back-to-top">Back to top</a>
   <script src="js/main.js"></script>
