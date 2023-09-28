@@ -1,10 +1,10 @@
 /* Place CSS styles here */
 
 .ohtani-header{
-    display: flex;
+    display: block;
     justify-content: space-between;
     background-color: rgb(132, 195, 255);
-    padding: 2%;
+    padding: 10px;
     font-weight: bolder;
     font-size: 20px;
     color: rgb(0, 0, 0);
@@ -14,6 +14,7 @@
     padding-top: 20px;
     font-weight: bold;
 }
+
 
 .ohtani-newsletter-form{
     
@@ -32,9 +33,7 @@
     display: flex;
     overflow: hidden;
     justify-content: flex-end;
-    margin: 0px;
     gap: 25px;
-    padding-bottom: 25px;
 }
 
 .ohtani-mini-text{
