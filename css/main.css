@@ -5,13 +5,17 @@ a:hover{
 }
 
 .ohtani-header{
-    display: block;
+    display: flex;
     background-color: rgb(132, 195, 255);
     padding: 10px;
     font-weight: bolder;
     font-size: 20px;
     color: rgb(0, 0, 0);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ohtani-logo{
+    justify-content: space-between;
 }
 
 a:-webkit-any-link {
@@ -33,13 +37,6 @@ a:-webkit-any-link {
     }
 }
 
-/* media query for tablet */
-@media (max-width: 480px) {
-    body{
-        background-color: blue;
-    }
-}
-
 /* media query for desktop */
 @media (max-width: 768px) {
     body{
@@ -58,6 +55,7 @@ a:-webkit-any-link {
 .ohtani-feature-items{
     display: flex;
     gap: 24px;
+
 }
 
 .ohtani-nav{
