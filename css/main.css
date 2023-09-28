@@ -7,6 +7,7 @@ a:hover{
 .ohtani-header{
     display: flex;
     background-color: rgb(132, 195, 255);
+    align-items: center;
     padding: 10px;
     font-weight: bolder;
     font-size: 20px;
