@@ -1,4 +1,51 @@
 /* Place CSS styles here */
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #ba0021;;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #ba0021;;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ba0021;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #84c3ff;;
+    color: white;
+  }
+
+
+
+* {
+    box-sizing: border-box;
+}
 
 a:hover{
     background-color: whitesmoke;
@@ -6,9 +53,10 @@ a:hover{
 
 .ohtani-header{
     display: flex;
-    background-color: rgb(132, 195, 255);
+    background-color: #84c3ff;
+    justify-content: spa;
     align-items: center;
-    padding: 10px;
+   /* padding: 10px;*/
     font-weight: bolder;
     font-size: 20px;
     color: rgb(0, 0, 0);
@@ -25,6 +73,10 @@ a:-webkit-any-link {
 
 .ohtani-main-main-wrapper{
     align-items: center;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    justify-content: flex-end;
+ 
 }
 .ohtani-footer{
     padding-top: 20px;
@@ -45,9 +97,9 @@ a:-webkit-any-link {
     }
 }
 
-.ohtani-newsletter-form{
-    
-}
+ *{
+    box-sizing: border-box;
+ }
 
 .ohtani-image{
     padding-bottom: 15px;
@@ -57,6 +109,10 @@ a:-webkit-any-link {
     display: flex;
     gap: 24px;
 
+}
+
+.ohtani-feature-item-back{
+    justify-content: center;
 }
 
 .ohtani-nav{
@@ -74,6 +130,7 @@ a:-webkit-any-link {
 .ohtani-feature-item{
     background-color: rgb(132, 195, 255);
     padding: 10px;
+    box-sizing: border-box;
 }
 
 .div{
@@ -84,11 +141,17 @@ a:-webkit-any-link {
     display: flex;
     flex-direction: column;
     align-items: center;
+   
+
+
+}
+
+button{
 
 }
  h3{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
  }
 
  p{
@@ -105,11 +168,16 @@ nav a{
     margin-bottom: 4px;
     text-decoration: none;
     transition: all .25s ease;
+    width: auto;
 }
 
 a{
     background-color: transparent;
 }
 
+html{
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
 
 

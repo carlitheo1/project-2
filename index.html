@@ -27,6 +27,25 @@
   <h1 id="back-to-top"></h1>
 
 <div class="ohtani-main-main-wrapper"></div>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active"> <img src="./img/ohtani-logo.png" 
+    height="90" width="90"alt=""></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#join-us">Join Us</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 <header class="ohtani-header">
     <img src="./img/ohtani-logo.png" 
     height="90" width="90"alt="">
@@ -38,6 +57,8 @@
     </nav>
     </header>
     <img class="ohtani-image" src="./img/ohtani-pitching.jpg" alt="">
+
+
 
   <main class="ohtani-main-wrapper">
     <div class="ohtani-featured-wrapper">
@@ -55,7 +76,8 @@
           <img src="./img/ohtani-movie-star.jpg" 
           height="300" width="300" alt="">
           <h3>About Us</h3>
-          <p> </p>
+          <p class="ohtani-mini-text">Welcome to the SHO! Welcome to our fan...</p>
+          <button type="button" onclick="alert('Welcome to the')">Learn</button>
         </div>
 
         <!-- second section -->
@@ -84,7 +106,7 @@
       <input type="text" id="lname" name="lname" value=""><br><br>
       <label for="email">Email:</label><br>
       <input type="text" id="e-mail" name="e-mail" value=""><br><br>
-      <input type="submit" value="Submit">
+      <input type="submit" value="Subcribe!">
     </form> 
   </div>
   <a href="#back-to-top">Back to top</a>
