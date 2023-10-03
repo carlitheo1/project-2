@@ -1,3 +1,11 @@
+img {
+    width: 100%;
+}
+
+.logo{
+    width: 90px;
+}
+
 /* Place CSS styles here */
 /* Style the navigation menu */
 .topnav {
@@ -54,7 +62,7 @@ a:hover{
 .ohtani-header{
     display: flex;
     background-color: #84c3ff;
-    justify-content: spa;
+    justify-content: space-between;
     align-items: center;
    /* padding: 10px;*/
     font-weight: bolder;
@@ -84,7 +92,7 @@ a:-webkit-any-link {
 }
 
 /* media query for phones */
-@media (max-width: 481px) and (max-width: 767px) {
+@media (max-width: 300px) and (max-width: 767px) {
     body{
         background-color: rgb(217, 255, 0);
     }
@@ -108,7 +116,13 @@ a:-webkit-any-link {
 .ohtani-feature-items{
     display: flex;
     gap: 24px;
+    flex-direction: column;
 
+}
+@media (min-width: 768px) {
+    .ohtani-feature-items{
+        flex-direction: row;
+    }
 }
 
 .ohtani-feature-item-back{
@@ -147,8 +161,9 @@ a:-webkit-any-link {
 }
 
 button{
-
+    align-items: center;
 }
+
  h3{
     text-align: center;
     font-size: 1.5rem;
