@@ -10,7 +10,7 @@ img {
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
-    background-color: #ba0021;;
+    background-color: #84c3ff;
     position: relative;
   }
   
@@ -24,13 +24,15 @@ img {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 24px;
     display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
   }
   
   /* Style the hamburger menu */
   .topnav a.icon {
-    background: #ba0021;;
+    background: #84c3ff;
     display: block;
     position: absolute;
     right: 0;
@@ -45,7 +47,7 @@ img {
   
   /* Style the active link (or home/logo) */
   .active {
-    background-color: #84c3ff;;
+    background-color: #84c3ff;
     color: white;
   }
 
@@ -59,16 +61,16 @@ a:hover{
     background-color: whitesmoke;
 }
 
-.ohtani-header{
+ /*.ohtani-header{
     display: flex;
     background-color: #84c3ff;
     justify-content: space-between;
     align-items: center;
-   /* padding: 10px;*/
+   /* padding: 10px;
     font-weight: bolder;
     font-size: 20px;
     color: rgb(0, 0, 0);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
 .ohtani-logo{
@@ -91,6 +93,13 @@ a:-webkit-any-link {
     font-weight: bold;
 }
 
+.shotime-button{
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    size-adjust: 2px;
+
+}
+
 /* media query for phones */
 @media (max-width: 300px) and (max-width: 767px) {
     body{
@@ -111,6 +120,7 @@ a:-webkit-any-link {
 
 .ohtani-image{
     padding-bottom: 15px;
+   
 }
 
 .ohtani-feature-items{
