@@ -3,7 +3,7 @@ img {
 }
 
 .logo{
-    width: 90px;
+    width: 100px;
 }
 
 /* Place CSS styles here */
@@ -35,8 +35,8 @@ img {
     background: #84c3ff;
     display: block;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 28px;
+    top: 21px;
   }
   
   /* Add a grey background color on mouse-over */
@@ -73,9 +73,6 @@ a:hover{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
-.ohtani-logo{
-    justify-content: space-between;
-}
 
 a:-webkit-any-link {
     cursor: pointer;
@@ -83,7 +80,6 @@ a:-webkit-any-link {
 
 .ohtani-main-main-wrapper{
     align-items: center;
-    overflow-clip-margin: content-box;
     overflow: clip;
     justify-content: flex-end;
  
@@ -118,15 +114,28 @@ a:-webkit-any-link {
     box-sizing: border-box;
  }
 
+.ohtani-overlay{
+    display: flex;
+    flex-direction: column;
+    background-color: #2d2d2d;
+    font-size: 20px;
+    
+}
+
+
 .ohtani-image{
-    padding-bottom: 15px;
-   
+    opacity: 23%;
+    text-transform: capitalize;
+    color: #ffffff;
+    background-size: cover;
+    background-position: 50%;
 }
 
 .ohtani-feature-items{
     display: flex;
     gap: 24px;
     flex-direction: column;
+    padding-top: 15px;
 
 }
 @media (min-width: 768px) {
