@@ -6,20 +6,16 @@ img {
     width: 100px;
 }
 
-/* Place CSS styles here */
-/* Style the navigation menu */
 .topnav {
     overflow: hidden;
     background-color: #84c3ff;
     position: relative;
   }
   
-  /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
     display: none;
   }
   
-  /* Style navigation menu links */
   .topnav a {
     color: white;
     padding: 14px 16px;
@@ -30,7 +26,6 @@ img {
     
   }
   
-  /* Style the hamburger menu */
   .topnav a.icon {
     background: #84c3ff;
     display: block;
@@ -39,19 +34,15 @@ img {
     top: 21px;
   }
   
-  /* Add a grey background color on mouse-over */
   .topnav a:hover {
     background-color: #ba0021;
     color: rgb(255, 255, 255);
   }
-  
-  /* Style the active link (or home/logo) */
+
   .active {
     background-color: #84c3ff;
     color: white;
   }
-
-
 
 * {
     box-sizing: border-box;
@@ -60,19 +51,6 @@ img {
 a:hover{
     background-color: whitesmoke;
 }
-
- /*.ohtani-header{
-    display: flex;
-    background-color: #84c3ff;
-    justify-content: space-between;
-    align-items: center;
-   /* padding: 10px;
-    font-weight: bolder;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-}
-
 
 a:-webkit-any-link {
     cursor: pointer;
@@ -116,21 +94,59 @@ a:-webkit-any-link {
 
 .ohtani-overlay{
     display: flex;
+    white-space-trim: normal;
     flex-direction: column;
     background-color: #2d2d2d;
     position: relative;
     text-align: center;
     color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    
 }
 
 .ohtani-hero-centered {
+    display: block;
     position: absolute;
-    top: 50%;
+    top: 44%;
     left: 50%;
     transform: translate(-50%, -50%);
    
   }
+
+.ohtani-hero-subtext{
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+}
+
+.ohtani-hero-subtext-centered{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.learn-more-button{
+    background-color: #ba0021;
+    color: #ffffff;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 24px;
+
+}
+
 
 .text-container {
     position: absolute;
@@ -193,9 +209,6 @@ a:-webkit-any-link {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
-
-
 }
 
 button{
