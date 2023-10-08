@@ -118,10 +118,29 @@ a:-webkit-any-link {
     display: flex;
     flex-direction: column;
     background-color: #2d2d2d;
-    font-size: 20px;
-    
+    position: relative;
+    text-align: center;
+    color: white;
+   
 }
 
+.ohtani-hero-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+  }
+
+.text-container {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 18rem;
+    top: 2rem;
+    background-color: rgb(41, 41, 41, 0.8);
+    padding: 0 1rem;
+}
+    
 
 .ohtani-image{
     opacity: 23%;
