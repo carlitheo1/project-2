@@ -1,3 +1,8 @@
+a{
+    text-align: center;
+    display: block;
+}
+
 img {
     width: 100%;
 }
@@ -94,7 +99,6 @@ a:-webkit-any-link {
 
 .ohtani-overlay{
     display: flex;
-    white-space-trim: normal;
     flex-direction: column;
     background-color: #2d2d2d;
     position: relative;
@@ -106,7 +110,7 @@ a:-webkit-any-link {
 }
 
 .ohtani-hero-centered {
-    display: block;
+    display: flex;
     position: absolute;
     top: 44%;
     left: 50%;
@@ -130,6 +134,7 @@ a:-webkit-any-link {
 }
 
 .learn-more-button{
+
     background-color: #ba0021;
     color: #ffffff;
     position: absolute;
@@ -144,7 +149,17 @@ a:-webkit-any-link {
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 24px;
+    cursor: pointer;
 
+}
+
+.thanks-page{
+    text-align: center;
+    font-size: 73px;
+}
+
+.thanks-page-mini-text{
+    font-size: 25px;
 }
 
 
@@ -154,7 +169,7 @@ a:-webkit-any-link {
     left: 18rem;
     top: 2rem;
     background-color: rgb(41, 41, 41, 0.8);
-    padding: 0 1rem;
+    padding: 1rem;
 }
     
 
@@ -211,9 +226,6 @@ a:-webkit-any-link {
     align-items: center;
 }
 
-button{
-    align-items: center;
-}
 
  h3{
     text-align: center;
