@@ -41,7 +41,7 @@
     <a href="#join-us">Join Us</a>
   </div>
   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <a href="javascript:void(0);" class="icon" onclick="myFunction(menubar)">
     <i class="fa fa-bars"></i>
   </a>
 </div>
@@ -89,16 +89,16 @@
       </div>
     </main>
     <br>
-    <footer class="ohtani-footer">Want to keep up to date with all things Shohei? Sign up for our newsletter below!</footer>
+    <footer class="ohtani-footer">Want to keep up to date with all things Shohei? Sign up for our newsletter below!</footer><br>
     <br>
 
-    <form action="thank-you-page.html">
-      <label class="" for="fname">First name:</label><br>
+    <form action="thank-you-page.html" class="ohtani-form">
+      <label class="form-input" for="fname">First name:</label><br>
       <input type="text" id="fname" name="fname" value=""><br><br>
-      <label class="" for="lname">Last name:</label><br>
+      <label class="form-input" for="lname">Last name:</label><br>
       <input type="text" id="lname" name="lname"><br><br>
-      <label class="" for="email">Email:</label><br>
-      <input type="email" id="email" name="email" required>
+      <label class="form-input" for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required> <br><br>
       <p>
         <input class="subcribe-button" type="submit" value="Subcribe!">
       </p>
