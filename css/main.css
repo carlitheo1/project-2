@@ -135,7 +135,6 @@ form{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 4vw;
-
   }
 
 .ohtani-hero-subtext{
@@ -152,6 +151,7 @@ form{
     font-size: 2vw;
     font-family: 'Times New Roman', Times, serif;
 }
+
 
 .learn-more-button{
     box-sizing: border-box;
