@@ -72,7 +72,7 @@ a:-webkit-any-link {
 .ohtani-footer{
     padding-top: 20px;
     font-weight: bold;
-    font-size: 1.8vw;
+    font-size: 1.3vw;
 }
 
 form{
@@ -158,6 +158,10 @@ form{
     font-size: 25px;
 }
 
+.thanks-page{
+    text-align: center;
+}
+
 .text-container {
     position: absolute;
     color: #ffffff;
@@ -200,7 +204,7 @@ form{
 }
 
 .ohtani-mini-text{
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
 }
 
