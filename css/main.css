@@ -1,6 +1,7 @@
 a{
     text-align: center;
     display: block;
+    font-size: 15px;
 }
 
 img {
@@ -22,13 +23,12 @@ img {
   }
   
   .topnav a {
-    color: white;
+    color: #ffffff;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 24px;
     display: block;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
   }
   
   .topnav a.icon {
@@ -41,12 +41,12 @@ img {
   
   .topnav a:hover {
     background-color: #ba0021;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
   }
 
   .active {
     background-color: #84c3ff;
-    color: white;
+    color: #ffffff;
   }
 
 * {
@@ -54,7 +54,7 @@ img {
 }
 
 a:hover{
-    background-color: whitesmoke;
+    background-color: #f5f5f5;
 }
 
 a:-webkit-any-link {
@@ -65,37 +65,39 @@ a:-webkit-any-link {
     align-items: center;
     overflow: clip;
     justify-content: flex-end;
- 
+    position: absolute;
+    font-size: 1vw;
 }
+
 .ohtani-footer{
     padding-top: 20px;
     font-weight: bold;
+    font-size: 1.8vw;
 }
 
-.shotime-button{
-    background-color: rgb(255, 255, 255);
-    border: 0px;
-    size-adjust: 2px;
-
+form{
+    font-size: large;
+    border-radius: 24px
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;;
 }
 
 /* media query for phones */
 @media (max-width: 300px) and (max-width: 767px) {
     body{
-        background-color: rgb(217, 255, 0);
+        background-color: #d9ff00;
     }
 }
 
 /* media query for desktop */
 @media (max-width: 768px) {
     body{
-        background-color: rgb(0, 255, 64);
+        background-color: #00ff40;
     }
 }
 
- *{
-    box-sizing: border-box;
- }
 
 .ohtani-overlay{
     display: flex;
@@ -103,19 +105,19 @@ a:-webkit-any-link {
     background-color: #2d2d2d;
     position: relative;
     text-align: center;
-    color: white;
+    color: #ffffff;
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
 }
 
 .ohtani-hero-centered {
-    display: flex;
+    display: block;
     position: absolute;
     top: 44%;
     left: 50%;
     transform: translate(-50%, -50%);
-   
+    font-size: 4vw;
+
   }
 
 .ohtani-hero-subtext{
@@ -126,19 +128,18 @@ a:-webkit-any-link {
 
 .ohtani-hero-subtext-centered{
     position: absolute;
-    top: 53%;
+    top: 56%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 15px;
+    font-size: 2vw;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .learn-more-button{
-
     background-color: #ba0021;
     color: #ffffff;
     position: absolute;
-    top: 64%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: none;
@@ -146,33 +147,26 @@ a:-webkit-any-link {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 2vw;
     margin: 4px 2px;
     border-radius: 24px;
     cursor: pointer;
 
 }
 
-.thanks-page{
-    text-align: center;
-    font-size: 73px;
-}
-
 .thanks-page-mini-text{
     font-size: 25px;
 }
 
-
 .text-container {
     position: absolute;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     left: 18rem;
     top: 2rem;
     background-color: rgb(41, 41, 41, 0.8);
     padding: 1rem;
 }
     
-
 .ohtani-image{
     opacity: 23%;
     text-transform: capitalize;
@@ -206,12 +200,12 @@ a:-webkit-any-link {
 }
 
 .ohtani-mini-text{
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-weight: bold;
 }
 
 .ohtani-feature-item{
-    background-color: rgb(132, 195, 255);
+    background-color: #84c3ff;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -226,8 +220,7 @@ a:-webkit-any-link {
     align-items: center;
 }
 
-
- h3{
+ h2{
     text-align: center;
     font-size: 1.5rem;
  }
@@ -240,7 +233,6 @@ a:-webkit-any-link {
 nav a{
  display: inline-flex;
     padding: 16px;
-  /*  border: 1px solid white; */
     color: #ba0021;
     margin-top: 4px;
     margin-bottom: 4px;
