@@ -18,9 +18,7 @@ img {
     position: relative;
   }
   
-  .topnav #myLinks {
-    display: none;
-  }
+  
   
   .topnav a {
     color: #ffffff;
