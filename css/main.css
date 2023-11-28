@@ -18,7 +18,9 @@ img {
     position: relative;
   }
   
-  
+  .topnav #myLinks {
+    display: none;
+  }
   
   .topnav a {
     color: #ffffff;
@@ -113,6 +115,7 @@ form{
         background-color: #00ff40;
     }
 }
+
 
 
 .ohtani-overlay{
