@@ -109,13 +109,13 @@ form{
     }
 }
 
-/* media query for desktop */
+/* media query for desktop 
 @media (max-width: 768px) {
     body{
         background-color: #00ff40;
     }
 }
-
+*/
 
 
 .ohtani-overlay{
