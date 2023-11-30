@@ -183,14 +183,24 @@ form{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.ohtani-hero-centered {
+.ohtani-hero{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url(../img/ohtani-pitching.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*.ohtani-hero-centered {
     display: block;
     position: absolute;
     top: 44%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 4vw;
-  }
+  } */
 
 .ohtani-hero-subtext{
     color: #ffffff;
