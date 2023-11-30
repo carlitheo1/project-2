@@ -12,10 +12,22 @@ img {
     width: 100px;
 }
 
-.topnav {
-    overflow: hidden;
+.ohtani-logo{
+    align-items: center;
+}
+
+.blank{
+    gap: 20px;
+}
+
+.ohtani-header{
     background-color: #84c3ff;
-    position: relative;
+}
+
+.topnav {
+    align-items: center;
+    overflow: hidden;
+    
   }
   
   .topnav #myLinks {
@@ -26,18 +38,14 @@ img {
     color: #ffffff;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 24px;
-    display: block;
+    text-align: center;
+    margin-top: 4px;    
+    margin-bottom: 4px;
+    font-size: 14px;
+    display: inline-flex;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
-  .topnav a.icon {
-    background: #84c3ff;
-    display: block;
-    position: absolute;
-    right: 28px;
-    top: 21px;
-  }
   
   .topnav a:hover {
     background-color: #ba0021;
@@ -74,7 +82,7 @@ input, textarea{
 }
 
 a:hover{
-    background-color: #f5f5f5;
+    background-color: #ba0021
 }
 
 a:-webkit-any-link {
@@ -102,20 +110,66 @@ form{
     margin-right: auto;;
 }
 
-/* media query for phones */
-@media (max-width: 300px) and (max-width: 767px) {
-    body{
-        background-color: #d9ff00;
-    }
-}
 
-/* media query for desktop 
-@media (max-width: 768px) {
-    body{
-        background-color: #00ff40;
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+  }
+
+  
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      display: flex;
+      position: absolute;
+      right: 28px;
+      top: 27px;
+      font-size: 23px;
+      background-color:#84c3ff ;
     }
-}
-*/
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      display: flex;
+      position: absolute;
+      background-color: #ba0021;
+      right: 28px;
+      top: 27px;
+      font-size: 23px;
+    }
+    .topnav.responsive a {
+      position: relative;
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .broke-bear-grid-container{
+      grid-template-columns: 1fr;
+      grid-gap: 10px
+    }
+    
+  }
+  
+  @media (max-width: 768px) {
+      body{
+      background-color: #d387ff;
+      }
+  }
+  
+  @media (max-width: 480px){
+  .broke-bear-featured-item {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+  
 
 
 .ohtani-overlay{
@@ -223,10 +277,9 @@ form{
 }
 
 .ohtani-nav{
-    display: flex;
+    display: block;
     overflow: hidden;
-    justify-content: flex-end;
-    gap: 25px;
+    margin-top: -27px;
 }
 
 .ohtani-mini-text{
