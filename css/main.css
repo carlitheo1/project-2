@@ -71,14 +71,14 @@ input, textarea{
     border-bottom-color: transparent;
     border-right-color: transparent;
     border-left-color: transparent;
-    font-size: 1.5vw;
+    font-size: 17px;
 }
 
-.subcribe-button{
-    font-size: 1.5vw;
+.subscribe-button{
+    font-size: 17px;
     font-weight: bold;
-    width: 10vw;
-    height: 2.6vw;
+    width: 106px;
+    height: 38px;
 }
 
 a:hover{
@@ -94,17 +94,18 @@ a:-webkit-any-link {
     overflow: clip;
     justify-content: flex-end;
     position: absolute;
-    font-size: 1vw;
+    font-size: 1px;
 }
 
 .ohtani-footer{
     padding-top: 20px;
     font-weight: bolder;
-    font-size: 1.7vw;
+    font-size: 15px;
+    text-align: center;
 }
 
 form{
-    font-size: 1.3vw;
+    font-size: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;;
@@ -149,72 +150,35 @@ form{
   }
   
   @media (max-width: 600px) {
-    .broke-bear-grid-container{
-      grid-template-columns: 1fr;
-      grid-gap: 10px
-    }
-    
-  }
-  
-  @media (max-width: 768px) {
-      body{
-      background-color: #ffffff;
+      .topnav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       }
   }
-  
-  @media (max-width: 480px){
-  .broke-bear-featured-item {
-      flex-direction: column;
-      gap: 10px;
-    }
-  }
-  
-  
 
-
-.ohtani-overlay{
-    display: flex;
-    flex-direction: column;
-    background-color: #2d2d2d;
+  @media (min-width: 601px) {
+    .ohtani-hero{
     position: relative;
-    text-align: center;
-    color: #ffffff;
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+
+  @media (min-width: 601px) {
+    .ohtani-headline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
 }
 
 .ohtani-hero{
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url(../img/ohtani-pitching.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(52, 52, 52, 1.55) ), url(../img/ohtani-pitching-cropped.jpg);
     background-size: cover;
     background-position: center;
-}
-
-/*.ohtani-hero-centered {
-    display: block;
-    position: absolute;
-    top: 44%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 4vw;
-  } */
-
-.ohtani-hero-subtext{
-    color: #ffffff;
-    position: relative;
-    text-align: center;
-}
-
-.ohtani-hero-subtext-centered{
-    position: absolute;
-    top: 56%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2vw;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -222,16 +186,9 @@ form{
     box-sizing: border-box;
     box-shadow: -4px 6px #84c3ff;
     background-color: #ba0021;
-    border-top-color: transparent;
-    border-bottom-color: transparent;
-    border-right-color: transparent;
-    border-left-color: transparent;
     font-size: 2vw;
     color: #ffffff;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
     border: none;
     padding: 20px;
     text-align: center;
@@ -265,7 +222,7 @@ form{
     text-transform: capitalize;
     color: #ffffff;
     background-size: cover;
-    background-position: 50%;
+    background-position: center;
 }
 
 .ohtani-feature-items{
@@ -287,9 +244,11 @@ form{
 }
 
 .ohtani-nav{
-    display: block;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -82px;
+    padding-bottom: 20px;
     overflow: hidden;
-    margin-top: -27px;
 }
 
 .ohtani-mini-text{
@@ -313,6 +272,13 @@ form{
     align-items: center;
 }
 
+.ohtani-headline{
+    font-size: 33px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
  h2{
     text-align: center;
     font-size: 1.5rem;
@@ -332,6 +298,11 @@ nav a{
     text-decoration: none;
     transition: all .25s ease;
     width: auto;
+}
+
+.ohtani-gif{
+   display: flex;
+    width: 100%;
 }
 
 a{

@@ -24,16 +24,22 @@
 
 <body>
   <!-- Place your site's HTML here -->
-  <h1 id="back-to-home"></h1>
-  <div class="topnav">
-    <a href="#home" class="logo active"> <img src="./img/ohtani-logo.png" alt=""></a>
-    <!-- Navigation links (hidden by default) -->
-    <div id="myLinks">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#join-us">Join Us</a>
+  <header class="ohtani-header">
+    <div class="topnav" id="myTopnav">
+    <a href="#home" class="logo active">
+      <div id="back-to-top"></div>
+      <img class="ohtani-logo" src="./img/ohtani-logo.png" alt=""></a>
+    <nav class="ohtani-nav">
+    <a class="blank" href=""></a>
+    <a href="./index.html">Home</a>
+    <a href="">About</a>
+    <a href="">Join Us</a>
+    </nav>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
     </div>
+    </header>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
@@ -42,7 +48,7 @@
     <main class="ohtani-main">
       <h1 class="thanks-page">Thank You!</h1>
       <p class="thanks-page-mini-text">Your response has been saved</p>
-      <a href="./index.html">Back to Home Page </a>
+      <iframe src="https://giphy.com/embed/xIg3pnpsmfUBaxfGVf" width="480" height="270" frameBorder="0" class="ohtani-gif" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mlb-sports-baseball-xIg3pnpsmfUBaxfGVf"></a></p>
     </main>
   </div>
   <script src="js/main.js"></script>
