@@ -1,0 +1,16 @@
+Project 2 updates:
+
+-updated media for navigation bar
+-added a header tag for nav
+-optimized images
+-added media queries that switch screens
+-Turned into a responsive layout based on screen size
+-added working nav bar to thank you page
+-added gif to thank you page
+-changed hero to make it adjustable instead of just being an image with a color overlay (the way we learned in class)
+-added scroll link to the join the clubhouse button
+-changed the font on the page
+
+-side note: the navigation bar when the bars are clicked in mobile mode is no longer in the list mode I originally had and I can't figure out how to fix it (tried media query and it didn't help)
+
+-also link from clubhouse button does not go to the right section of the page even though I've tried multiple spots on the page (no matter what it only goes to the blue images under the button)
