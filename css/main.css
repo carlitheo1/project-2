@@ -32,11 +32,9 @@ img {
     color: #ffffff;
     padding: 14px 16px;
     text-decoration: none;
-    text-align: center;
     margin-top: 4px;    
     margin-bottom: 4px;
     font-size: 24px;
-    display: inline-flex;
     font-weight: bold;
     font-family: 'Unbounded', sans-serif;
   }
@@ -129,9 +127,6 @@ form{
     }
   }
   
-  .fa{
-    color: #ffffff;
-  }
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
@@ -158,6 +153,13 @@ form{
       }
   }
 
+  @media (min-width: 601px) {
+    .topnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+}
 
   @media (min-width: 601px) {
     .ohtani-hero{
@@ -248,8 +250,8 @@ form{
 .ohtani-nav{
     display: flex;
     justify-content: flex-end;
-    margin-top: -82px;
-    padding-bottom: 20px;
+   /* margin-top: -82px;
+    padding-bottom: 20px; */
     overflow: hidden;
 }
 
